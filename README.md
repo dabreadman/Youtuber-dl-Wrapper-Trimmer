@@ -1,5 +1,8 @@
 # Youtuber-dl-Wrapper-Trimmer
-Wrappers for Youtube-dl (and FFmpeg) to download audio and trim clips at specified timestamp
+Wrappers for Youtube-dl (and FFmpeg) to download audio and trim clips at specified timestamp.
+
+* [Use](https://github.com/dabreadman/Youtuber-dl-Wrapper-Trimmer#use)
+* [Development](https://github.com/dabreadman/Youtuber-dl-Wrapper-Trimmer#development)
 
 # Use
 1. Download [Youtube.Trimmer.rar](https://github.com/dabreadman/Youtuber-dl-Wrapper-Trimmer/releases/tag/0.0.1)[](https://github.com/dabreadman/Youtuber-dl-Wrapper-Trimmer/releases/tag/0.0.1)
