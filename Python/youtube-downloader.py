@@ -16,7 +16,7 @@ def formatTime (time):
 ydl_opts = {
     'format': 'bestaudio/best',
  #   specifies output directory
- #   'outtmpl': '<path>/%(title)s.%(ext)s',
+    'outtmpl': '/Clip/%(title)s.%(ext)s',
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
@@ -39,6 +39,6 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 
 # rickroll
 if url == "https://www.youtube.com/watch?v=dQw4w9WgXcQ":
-    os.startfile('.\\Rick Astley - Never Gonna Give You Up (Video)-dQw4w9WgXcQ.mp3')
+    os.startfile('.\Clip\\Rick Astley - Never Gonna Give You Up (Video).mp3')
     time.sleep(211)
 
